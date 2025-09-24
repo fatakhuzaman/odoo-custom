@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_my_submodel_complex_tree" model="ir.ui.view">
+        <field name="name">my.submodel.complex.tree</field>
+        <field name="model">my.submodel.complex</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="value" />
+                <field name="parent_id" />
+            </tree>
+        </field>
+    </record>
+
+</odoo>
